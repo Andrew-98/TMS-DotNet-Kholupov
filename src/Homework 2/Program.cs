@@ -11,7 +11,7 @@ namespace Homework_2
             bool result = DateTime.TryParse(userInput, out DateTime date);
             if (result)
             {
-                Console.WriteLine(DayOfWeek);
+                Console.WriteLine(date.DayOfWeek);
             }
             else
             {
