@@ -15,10 +15,10 @@ namespace Homework_2
             }
             else
             {
-                Console.WriteLine("Некорректный ввод.");
+                Console.WriteLine("Incorrect input.");
             }
 
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
