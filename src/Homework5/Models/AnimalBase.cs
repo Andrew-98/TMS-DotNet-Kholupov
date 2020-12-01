@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Homework5.Models
+﻿namespace Homework5.Models
 {
     public abstract class AnimalBase<T>
     {

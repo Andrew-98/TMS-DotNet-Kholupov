@@ -2,7 +2,6 @@
 using Homework5.Models;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace Homework5.Managers
 {
@@ -20,9 +19,10 @@ namespace Homework5.Managers
 
         public void YouCanInteractWithIt()
         {
-            Animals.Add(new Fox {
-            Name = "Foxi",
-            Age = 2,
+            Animals.Add(new Fox
+            {
+                Name = "Foxi",
+                Age = 2,
             });
 
             Show();

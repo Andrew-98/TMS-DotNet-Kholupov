@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Homework5.Models
 {
@@ -8,7 +6,7 @@ namespace Homework5.Models
     {
         public void Fly()
         {
-            Console.WriteLine("I belive Ican fly");
+            Console.WriteLine("I belive I can fly!");
         }
     }
 }
