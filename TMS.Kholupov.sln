@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Homework7", "Homework7", "{
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework7Core", "src\Homework7\Homework7Core\Homework7Core.csproj", "{3F2B27C5-D4B2-4C63-AE60-2C497EB0FA92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework7Console", "src\Homework7\Homework7UI\Homework7Console.csproj", "{EE79ED45-3064-4C45-B6DE-E31226FF33CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework7UI", "src\Homework7\Homework7UI\Homework7UI.csproj", "{EE79ED45-3064-4C45-B6DE-E31226FF33CA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
