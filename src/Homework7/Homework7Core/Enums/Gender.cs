@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Homework7Core.Enums
+﻿namespace Homework7Core.Enums
 {
     public enum Gender
     {
