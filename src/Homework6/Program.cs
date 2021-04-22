@@ -4,7 +4,7 @@ namespace Homework6
 {
     internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Atm acc = new Atm(100);
             Console.WriteLine($"Current balance {acc.Sum} BYN");
@@ -19,6 +19,7 @@ namespace Homework6
             Console.WriteLine($"Account amount {acc.Sum} BYN");
             Console.Read();
         }
+
         private static void DisplayMessage(string message)
         {
             Console.WriteLine(message);

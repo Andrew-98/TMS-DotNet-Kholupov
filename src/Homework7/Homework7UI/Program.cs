@@ -8,9 +8,9 @@ using System.Threading;
 
 namespace Homework7UI
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             IStatisticService statisticService = new StatisticService();
             IFunctionalityService functionalityService = new FunctionalityService();

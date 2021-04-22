@@ -2,7 +2,7 @@
 
 namespace Homework4
 {
-    class ToDo
+    internal class ToDo
     {
         private readonly string Id = Guid.NewGuid().ToString().ToUpper().Substring(0, 5);
         private readonly DateTime _dateTime = DateTime.Now;
@@ -30,6 +30,7 @@ namespace Homework4
             Console.WriteLine($"Status: {_status}");
             Console.WriteLine($"DateTime: {_dateTime}");
         }
+
         public ToDoStatus ConvertStatus(string status)
         {
             return status switch

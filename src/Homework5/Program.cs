@@ -5,9 +5,9 @@ using System;
 
 namespace Homework5
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var fox = new Fox
             {

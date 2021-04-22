@@ -2,9 +2,9 @@
 
 namespace TeachMeSkills.DotNet.Homework2
 {
-    class Program
+    internal class Program
     {
-        enum Week
+        private enum Week
         {
             Unknown,
             Monday,
@@ -16,7 +16,7 @@ namespace TeachMeSkills.DotNet.Homework2
             Sunday,
         }
 
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var (isCorrect, day) = InputAndCheckUserData();
             if (!isCorrect)
@@ -31,6 +31,7 @@ namespace TeachMeSkills.DotNet.Homework2
 
             Console.ReadKey();
         }
+
         private static (bool isCorrect, Week day) InputAndCheckUserData()
         {
             Console.Write("Input value: ");

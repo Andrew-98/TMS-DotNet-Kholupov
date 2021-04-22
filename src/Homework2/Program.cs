@@ -2,9 +2,9 @@
 
 namespace Homework_2
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.Write("Enter you date: ");
             string userInput = Console.ReadLine();

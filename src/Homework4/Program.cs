@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 namespace Homework4
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var backlog = new List<ToDo>();
             var inputStop = false;
